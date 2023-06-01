@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Attendance Tracker</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      
+      #attendance-tracker-container{
+        border: solid 3px ;
+        border-radius: 12px;
+        width:700px;
+        height: 400px;
+        box-shadow: 5px 8px #88888896;
+        background-color: rgba(205, 228, 255, 0.445);
+      }
+      #plus-minus{
+        display: flex;
+        justify-content: end;
+      }
+      select{
+        width:650px;
+        margin-left: 20px;
+      }
+      #header-style{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="attendance-tracker-container">
+        <h2 id="header-style">Class Maintenance</h2>
+        <div>
+            <form>
+                <select name = "dropdown" >
+                   <option value="Class Name">Class Name</option>
+                   <option value = "University Physics"> University Physics</option>
+                   <option value = "Calculus lll">Calculus lll</option>
+                   <option value = "Chemistry">Chemistry</option>
+                   <option value = "Biology">Biology</option>
+                </select>
+             </form>
+        </div>
+        <div>
+            <form ><div style="border: solid 2px;padding:5px;margin: 18px;">
+                <div><label for="John Smith"> Smith, John</label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br></div>
+                <label for="Lebron James">James, Lebron</label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br>
+                <label for="Jane Smith">Smith, Jane</label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br>
+                <label for="Wade Johnson">Johnson,Wade </label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br>
+                <label for="Dave Williams">Williams, Dave </label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br>
+                <label for="Seth Brown">Brown, Seth</label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br>
+                <label for="Ivan Drago">Drago, Ivan</label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br>
+                <label for="Riley Jones">Jones, Riley</label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br>
+                <label for="Jorge Garcia">Garcia, Jorge</label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br>
+                <label for="Dan Miller">Miller, Dan</label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br>
+                <label for="Roberto Davis">Davis, Roberto</label>
+                <input type="checkbox" id="Student" name="Student" value="Student"><br>
+                </div>
+                
+              </form> 
+        </div>
+        <div id="plus-minus">
+            <span><button type="button"><img src="/Week1/minus.svg" height="18px"></button></span>
+            <span><button type="button"><img src="/Week1/add.svg" height="18px"></button></span>
+        </div>
+    </div>
+  </body>
+</html>
