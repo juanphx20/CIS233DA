@@ -1,0 +1,4 @@
+dark green rgb(89,80,37)
+gray rgb(146, 140,118)
+firey orange rbg(233, 150, 72)
+firey yellow rgb(232, 182, 111)
