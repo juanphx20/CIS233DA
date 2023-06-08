@@ -1,13 +1,12 @@
 @font-face {
-  font-family: 'leckerlioneregular';
-  src: url('leckerlione-regular-webfont.woff2') format('woff2'), 
-       url('leckerlione-regular-webfont.woff') format('woff');
-       
+  font-family: "leckerlioneregular";
+  src: url("leckerlione-regular-webfont.woff2") format("woff2"),
+    url("leckerlione-regular-webfont.woff") format("woff");
+
   font-weight: normal;
   font-style: normal;
-
 }
-*{
+* {
   font-family: "leckerlioneregular";
 }
 /* dark green rgb(89,80,37)
@@ -93,7 +92,6 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
-  
 }
 body {
   margin: 0;
