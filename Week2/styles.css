@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'leckerlioneregular';
+  src: url('leckerlione-regular-webfont.woff2') format('woff2'), 
+       url('leckerlione-regular-webfont.woff') format('woff');
+       
+  font-weight: normal;
+  font-style: normal;
+
+}
+*{
+  font-family: "leckerlioneregular";
+}
 /* dark green rgb(89,80,37)
 gray rgb(146, 140,118)
 firey orange rbg(233, 150, 72)
@@ -74,13 +86,14 @@ li {
 
 main {
   position: relative;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   font-size: xx-large;
   color: rgb(89, 80, 37);
   background-image: url("/images/pizza-Place.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
+  
 }
 body {
   margin: 0;
@@ -106,7 +119,7 @@ ul {
 a {
   text-decoration: none;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 /* .nav_links {
   padding: 10px;
