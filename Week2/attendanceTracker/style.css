@@ -78,9 +78,9 @@ select option {
   padding: 3px;
 }
 
-td , input, select {
+ td , input, select {
     height: 45px;
-}
+} 
 
 /* For a tablet */
 @media screen and (min-width: 600px) {
@@ -88,10 +88,10 @@ td , input, select {
     font-size: 2.5em;
     letter-spacing: 0.25em;
   }
-  td , input, select {
-    height: 33px;
-}
-}
+   td , input, select {
+    height: 33px; 
+} 
+ } 
 
 /* for a desktop */
 @media screen and (min-width: 1024px) {
@@ -105,5 +105,5 @@ td , input, select {
   }
   td , input, select {
     height: 21px;
-}
+} 
 }
